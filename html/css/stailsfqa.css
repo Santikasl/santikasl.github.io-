@@ -1,0 +1,418 @@
+
+
+
+
+/*Вверхний бар*/
+#topbar {
+	position:relative;
+}
+
+
+
+
+/*Название*/
+#name {
+         color:#696969;
+         font-size:70px;
+         position: absolute;
+		 left: 500px;
+         font-family: molot;
+         text-decoration: none;
+}
+#name:hover{
+	     color:#e85048;
+	     transition: 0.5s;
+	
+}
+
+
+
+
+/*Картинка инстаграмма*/
+#instagram {
+	     position: absolute;
+		 top:15px;
+		 left: 25px;
+         -moz-transition: all 0.5s ease-out;
+         -o-transition: all 0.5s ease-out;
+         -webkit-transition: all 0.5s ease-out;
+}
+#instagram:hover {
+         -webkit-transform: scale(1.1);
+         -moz-transform: scale(1.1);
+         -o-transform: scale(1.1); 
+}
+
+
+
+
+/*Картинка ютуба*/
+#youtube {
+	     position: absolute;
+		 top:15px;
+		 left: 130px;
+         -moz-transition: all 0.5s ease-out;
+         -o-transition: all 0.5s ease-out;
+         -webkit-transition: all 0.5s ease-out;
+}
+#youtube:hover{
+         -webkit-transform: scale(1.1);
+         -moz-transform: scale(1.1);
+         -o-transform: scale(1.1);
+}
+
+
+
+
+/*Картинка вк профиля*/
+#vkprofil {
+	     position: absolute;
+		 top:15px;
+		 left:240px;
+         -moz-transition: all 0.5s ease-out;
+         -o-transition: all 0.5s ease-out;
+         -webkit-transition: all 0.5s ease-out;
+}
+#vkprofil:hover {
+         -webkit-transform: scale(1.1);
+         -moz-transform: scale(1.1);
+         -o-transform: scale(1.1);	
+}
+
+
+
+
+/*Картинка вк группы*/
+#vkgroup{	
+	     position: absolute;
+		 top:15px;
+		 left:345px;
+         -moz-transition: all 0.5s ease-out;
+         -o-transition: all 0.5s ease-out;
+         -webkit-transition: all 0.5s ease-out;
+}
+#vkgroup:hover {
+         -webkit-transform: scale(1.1);
+         -moz-transform: scale(1.1);
+         -o-transform: scale(1.1);	
+}
+
+
+
+
+/*Ссылки на сотсети и вкладки*/
+.link:hover {
+	     color:#e85048;
+	     transition: 0.5s;
+}	
+.link {
+	     text-decoration: none;
+	     color:#808080;
+	     font-family: Bahnschrift;
+	     border: none;
+}
+
+
+
+
+/*Текст ссылок на сотсети и вкладки*/
+#instagramtext {
+		 position: absolute;
+		 top:70px;
+         left: 10px;		 
+}
+#youtubetext {
+		 position: absolute;
+		 top:70px;
+         left: 125px;
+}
+#vkprofiltext {
+		 position: absolute;
+		 top:70px;
+         left: 225px;
+}
+#vkgrouptext {
+		 position: absolute;
+		 top:70px;
+         left: 335px;
+}
+#abouttext {
+		 position: absolute;
+		 top:70px;
+         left: 900px;		 
+}
+#mytext {
+		 position: absolute;
+		 top:70px;
+         left: 980px;		 
+}
+#worktext {
+		 position: absolute;
+		 top:70px;
+         left: 1090px;		 
+}
+#fqatext {
+		 position: absolute;
+		 top:70px;
+         left: 1215px;		 
+}
+
+
+
+
+/*Верхняя линия*/
+#lainid {
+	     margin-top: 110px;
+}
+
+
+
+/*Вопросы и ответы*/
+#o {
+	     text-decoration: none;
+	     font-family: Molot;
+	     color:#5e5e5e;
+	     margin-left: 538px;
+	     margin-top: 35px;
+}
+#tx {
+	     text-decoration: none;
+	     font-family: Bahnschrift;
+	     color:#808080;
+	     margin-left: 100px;
+	     margin-top: 35px;
+}
+.ph {
+	     color:#808080;
+	     font-family: Bahnschrift;
+     	 border: none;
+}
+.ph:hover {
+    	 color:#e85048;
+	     transition: 0.8s;
+}
+#tx2 {
+	     text-decoration: none;
+	     font-family: Bahnschrift;
+	     color:#808080;
+	     margin-left: 750px;
+	     margin-top: -245px;
+}
+
+
+
+
+/*Нижняя линия*/
+#lainid {
+	     top:1000
+}
+
+
+
+
+/*Нижний бар*/
+.bottombar {
+	     position: relative;
+	     top: 100px
+}
+
+
+
+/*Имя сайта в нижнем баре*/
+#name2 {
+         color:#696969;
+         text-decoration: none;	
+         font-family: molot;	
+         font-size:40px;
+         position:relative; 
+         top:50px;
+         position: absolute;
+         left: 50px;
+         top: 150px;
+}
+#name2:hover{
+	     color:#e85048;
+	     transition: 0.5s;	
+}
+
+
+
+
+/*Поддержка*/
+#support {
+         font-family: Bahnschrift;	
+         text-decoration: none;
+         font-size:17px;
+         color:#808080;
+         position: absolute;
+         top:  145px;
+         left: 450px;
+}
+
+
+
+
+/*Сотрудничество*/
+#сooperation {
+         text-decoration: none;
+         font-family: Bahnschrift;	
+         text-decoration: none;
+         font-size:15px;
+         color:#808080;
+         position: absolute;
+         top: 185px;
+         left: 450px
+}
+#сooperation:hover {
+	     color:#e85048;
+	     transition: 0.5s;
+}
+
+
+
+
+/*Помощь*/
+#support2 {
+         text-decoration: none;
+         font-family: Bahnschrift;
+         text-decoration: none;	
+         font-size:15px;
+         color:#808080;
+         position: absolute;
+         top: 210px;
+         left: 450px;
+}
+#support2:hover{
+         color:#e85048;
+         transition: 0.5s;	
+}
+
+
+
+
+/*Все права защищены*/
+#bar {
+         font-family: Bahnschrift;
+         text-decoration: none;	
+         font-size:10px;
+         color:#808080;
+         position: relative;
+         top: 150px;
+         left: 50px;
+}
+
+
+
+
+/*Условия использования и тд*/
+#bar2 {
+	     position: relative;
+}
+#ss1 {
+         font-family: Bahnschrift;	
+         font-size:10px;
+         color:#808080;
+         position: absolute;
+         left: 260px;
+         top: 140px;
+}
+#ss2 {
+         font-family: Bahnschrift;	
+         font-size:10px;
+         color:#808080;
+         position: absolute;
+         left: 450px;
+         top: 140px;
+}
+
+
+
+
+/*нижний бар с сотсетями*/
+.iimg1 {
+	     position: relative;
+	     left: 900px;
+	     top: 45px;
+}
+
+
+
+
+
+
+/*нижний инстаграмм*/
+#instagramimg {
+         -moz-transition: all 0.5s ease-out;
+         -o-transition: all 0.5s ease-out;
+         -webkit-transition: all 0.5s ease-out;
+         position: absolute;
+}
+#instagramimg:hover {
+         -webkit-transform: scale(1.1);
+         -moz-transform: scale(1.1);
+         -o-transform: scale(1.1); 
+}
+
+
+
+
+/*нижний ютуб*/
+#youtubeimg {
+         -moz-transition: all 0.5s ease-out;
+         -o-transition: all 0.5s ease-out;
+         -webkit-transition: all 0.5s ease-out;
+         position: absolute;
+         left: 70px;
+}
+#youtubeimg:hover{
+         -webkit-transform: scale(1.1);
+         -moz-transform: scale(1.1);
+         -o-transform: scale(1.1);
+}
+
+
+
+
+/*нижний вк профиль*/
+#vkimg {
+         -moz-transition: all 0.5s ease-out;
+         -o-transition: all 0.5s ease-out;
+         -webkit-transition: all 0.5s ease-out;
+         position: absolute;
+         left: 140px;
+}
+#vkimg:hover {
+         -webkit-transform: scale(1.1);
+         -moz-transform: scale(1.1);
+         -o-transform: scale(1.1);	
+}
+
+
+
+
+/*нижняя вк группа*/
+#vkgroupimg{	
+         -moz-transition: all 0.5s ease-out;
+         -o-transition: all 0.5s ease-out;
+         -webkit-transition: all 0.5s ease-out;
+         position: absolute;
+         left: 210px;
+}
+#vkgroupimg:hover {
+         -webkit-transform: scale(1.1);
+         -moz-transform: scale(1.1);
+         -o-transform: scale(1.1);	
+}
+
+
+
+
+/*подписывайтесь*/
+#subscribe {
+         font-family: Bahnschrift;	
+         text-decoration: none;
+         font-size:20px;
+         color:#808080;
+         position: absolute;
+         left: 905px;	
+}
