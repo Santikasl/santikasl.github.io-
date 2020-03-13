@@ -4,7 +4,7 @@
 
 /*Вверхний бар*/
 #topbar {
-	     position:relative;
+	position:relative;
 }
 
 
@@ -222,6 +222,64 @@
          -o-transform: scale(1.1); 
 }
 
+
+
+
+
+
+
+/*Текст статей*/
+#textstay{
+	     position:relative;
+}
+#text1 {
+	     position: absolute;
+	     top: 290px;
+	     left: 60px;
+	     font-family: Bahnschrift;
+	     color:#808080;
+	     text-decoration: none;
+	     font-size: 20px;
+}
+#text1:hover {
+	     color:#e85048;
+}
+#text2 {
+         position: absolute;
+	     top: 290px;
+	     left: 480px;
+	     font-family: Bahnschrift;
+	     color:#808080;
+	     text-decoration: none;
+	     font-size: 20px;	
+}
+#text2:hover {
+	     color:#e85048;
+}
+#text3 {
+         position: absolute;
+	     top: 290px;
+	     left: 890px;
+	     font-family: Bahnschrift;
+	     color:#808080;
+	     text-decoration: none;
+	     font-size: 20px;		
+}
+#text3:hover {
+	     color:#e85048;
+}
+#text4 {
+	     position: absolute;
+	     top: 640px;
+	     left: 60px;
+	     font-family: Bahnschrift;
+	     color:#808080;
+	     text-decoration: none;
+	     font-size: 20px;
+}
+#text4:hover {
+	     color:#e85048;
+}
 
 
 
